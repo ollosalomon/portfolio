@@ -8,7 +8,7 @@ const translations = {
       skills: "Skills",
       work: "Work",
       contact: "Contact",
-      
+      download_cv: "Download CV",
       // Home section
       home__title: "Hi,<br>I'am <span class='home__title-color'>Ollo Salomon</span><br> Data Engineer",
       contact_button: "Contact",
@@ -61,7 +61,8 @@ const translations = {
       skills: "Compétences",
       work: "Projets",
       contact: "Contact",
-      
+      download_cv: "Télécharger mon CV",
+
       // Home section
       home__title: "Bonjour,<br>Je suis <span class='home__title-color'>Ollo Salomon</span><br> Ingénieur Data",
       contact_button: "Contact",
@@ -187,6 +188,7 @@ function translatePage() {
       { selector: '.nav__list li:nth-child(3) .nav__link', key: 'skills' },
       { selector: '.nav__list li:nth-child(4) .nav__link', key: 'work' },
       { selector: '.nav__list li:nth-child(5) .nav__link', key: 'contact' },
+      { selector: '.nav__list li:nth-child(6) .nav__link', key: 'download_cv' },
       { selector: '.home__title', key: 'home__title' },
       { selector: '.home__data .button', key: 'contact_button' },
       { selector: '#about .section-title', key: 'about_title' },
