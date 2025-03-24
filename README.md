@@ -1,15 +1,14 @@
-# Portfolio Responsive Complete
 
-## [Watch it on youtube](https://youtu.be/AKNvTxWOdKw)
+# Complete Responsive Portfolio
 
-### Portfolio Responsive Complete
+### Complete Responsive Portfolio
 
-- Responsive Personal Portfolio Website HTML CSS & JavaScript.
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- Responsive personal portfolio website using HTML, CSS, and JavaScript.
+- Includes animations on scroll.
+- Smooth scrolling between sections.
+- Designed with a Mobile-First approach, then adapted for desktop.
+- Compatible with all mobile devices, featuring a beautiful and pleasant user interface.
 
-💙 Join the channel to see more videos like this. [Ollosalomon](https://github.com/ollosalomon)
+[Ollosalomon](https://github.com/ollosalomon)
 
-![preview img](/preview.png)
+![Preview](assets/img/preview.png)
