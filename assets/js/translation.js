@@ -41,7 +41,9 @@ const translations = {
       project6_desc: "IEEE Publication: Development of an automatic hate speech detection system in Arabic language based on the AraBERT model, with significant results in terms of accuracy.",
       project8_title: "Data Engineering Projects at Smart Conseil",
       project8_desc: "Complete design and implementation of data systems: ETL pipelines with Airflow reducing processing times by 30%, PostgreSQL and MongoDB database modeling, CI/CD integration via GitLab, Docker containerization, orchestration with Portainer, and real-time monitoring with Grafana/Prometheus. Development of analytical dashboards with Power BI.",
-      
+      project9_title: "RAG application for personalized questions and answers",
+      project9_desc: "This AI application, developed with Streamlit, uses a Large Language Model (LLM) to answer questions from PDF documents about an entity (company, person, etc.). It combines advanced retrieval-augmented generation (RAG) techniques and modern AI tools to provide accurate and contextualized answers.",
+
       // Contact section
       contact_title: "Contact",
       name_placeholder: "Name",
@@ -94,8 +96,10 @@ const translations = {
       project6_title: "Système de Détection de Discours Haineux en Arabe basé sur AraBERT",
       project6_desc: "Publication IEEE : Développement d'un système de détection automatique de discours haineux en langue arabe basé sur le modèle AraBERT, avec des résultats significatifs en matière de précision.",
       project8_title: "Projets d'Ingénierie de Données chez Smart Conseil",
-      project8_desc: "Conception et implémentation complète de systèmes data: pipelines ETL avec Airflow réduisant les temps de traitement de 30%, modélisation de bases PostgreSQL et MongoDB, intégration CI/CD via GitLab, conteneurisation Docker, orchestration avec Portainer, et monitoring temps réel avec Grafana/Prometheus. Développement de dashboards analytiques avec Power BI.",
-      
+      project8_desc: "Conception d’un système RGPD-compliant de scraping et d’analyse de profils sociaux avec FastAPI, PostgreSQL et Airflow. Réalisation de pipelines ETL/ELT complexes avec Apache Airflow, Python et SQL, ayant permis une réduction de 30 % des temps de traitement. Optimisation des performances des bases de données PostgreSQL, MySQL et MongoDB. Déploiement d’applications conteneurisées via Docker et GitLab CI/CD, orchestrées avec Portainer. Mise en place de dashboards analytiques avec Power BI, et supervision en temps réel grâce à Grafana et Prometheus.",
+      project9_title: "Application RAG pour des questions-réponses personnalisées",
+      project9_desc: "Cette application d'IA, développée avec Streamlit, utilise un Large Language Model (LLM) pour répondre à des questions à partir de documents PDF concernant une entité (entreprise, personne, etc.). Elle combine des techniques avancées de génération augmentée par récupération (RAG) et des outils modernes d'IA pour offrir des réponses précises et contextualisées.",
+
       // Contact section
       contact_title: "Contact",
       name_placeholder: "Nom",
@@ -214,6 +218,8 @@ function translatePage() {
       { selector: '.work__img:nth-child(6) .work__desc p', key: 'project6_desc' },
       { selector: '.work__img:nth-child(7) .work__desc h3', key: 'project8_title' },
       { selector: '.work__img:nth-child(7) .work__desc p', key: 'project8_desc' },
+      { selector: '.work__img:nth-child(7) .work__desc h3', key: 'project9_title' },
+      { selector: '.work__img:nth-child(7) .work__desc p', key: 'project9_desc' },
       { selector: '#contact .section-title', key: 'contact_title' },
       { selector: '.contact__form input[type="submit"]', key: 'send_button' },
       { selector: '.footer__title', key: 'footer_title' },
