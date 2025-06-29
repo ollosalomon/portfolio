@@ -66,7 +66,7 @@ const translations = {
       download_cv: "Télécharger mon CV",
 
       // Home section
-      home__title: "Bonjour,<br>Je suis <span class='home__title-color'>Ollo Salomon</span><br> Ingénieur Data",
+      home__title: "Hello,<br>Je suis <span class='home__title-color'>Ollo Salomon</span><br> Ingénieur Data",
       contact_button: "Contact",
       
       // About section
